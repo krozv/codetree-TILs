@@ -12,7 +12,7 @@ int main() {
     } else if (n >= 60){
         cout << "D";
     } else {
-        cout << "E";
+        cout << "F";
     }
     return 0;
 }
