@@ -4,7 +4,7 @@ int main() {
     int m;
     cin >> m;
     if (3 <= m && m < 6){
-        cout << " Spring";
+        cout << "Spring";
     } 
     else if (6 <= m && m < 9){
         cout << "Summer";
