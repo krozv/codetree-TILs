@@ -6,7 +6,7 @@ int main() {
     if (n == 2){
         cout << 28;
         }
-    if (n == 4 || n == 6 || n == 8 || n == 9 || n == 11){
+    else if (n == 4 || n == 6 || n == 8 || n == 9 || n == 11){
         cout << 30;
     }
     else {
