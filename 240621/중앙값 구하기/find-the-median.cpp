@@ -5,26 +5,26 @@ int main() {
     cin >> a >> b >> c;
     if (a > b && a > c){
         if (b > c){
-            cout << 'b';
+            cout << b;
         }
         else {
-            cout << 'c';
+            cout << c;
         }
     }
     else if (b > a && b > c){
         if (a > c){
-            cout << 'a';
+            cout << a;
         }
         else {
-            cout << 'c';
+            cout << c;
         }
     }
     else {
         if (a > b){
-            cout << 'a';
+            cout << a;
         }
         else {
-            cout << 'b';
+            cout << b;
         }
     }
     return 0;
