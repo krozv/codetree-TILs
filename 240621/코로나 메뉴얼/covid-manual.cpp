@@ -4,7 +4,7 @@ int main() {
     char a, b, c;
     int ta, tb, tc;
     cin >> a >> ta >> b >> tb >> c >> tc;
-    int cnt;
+    int cnt = 0;
     if (a == 'Y' && ta >= 37){
         cnt += 1;
     }
