@@ -3,8 +3,8 @@ using namespace std;
 int main() {
     int a, b, c;
     cin >> a >> b >> c;
-    if (a >> b){
-        if (a >> c){
+    if (a >= b){
+        if (a >= c){
             // a
             cout << a;
         }
@@ -14,7 +14,7 @@ int main() {
         }
     }
     else {
-        if (b >> c){
+        if (b >= c){
             // b
             cout << b;
         }
