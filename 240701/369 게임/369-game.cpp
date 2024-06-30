@@ -7,10 +7,10 @@ int main() {
         if (i % 3 == 0){
             cout << 0 << ' ';
         } 
-        else if ((i%10) % 3 == 0){
+        else if (i > 10 && (i%10) % 3 == 0){
             cout << 0 << ' ';
         }
-        else if (i >= 10 && (i-(i%10)) % 3 == 0){
+        else if (i > 10 && (i-(i%10)) % 3 == 0){
             cout << 0 << ' ';
         }
         else {
