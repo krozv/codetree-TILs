@@ -7,7 +7,7 @@ int main() {
     int i=1;
     while (true){
         cnt++;
-        if (double(n)/i <= 1){
+        if (n/i <= 1){
             break;
         }
         n /= i;
