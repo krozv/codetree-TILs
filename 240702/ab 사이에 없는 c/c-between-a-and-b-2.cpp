@@ -3,10 +3,10 @@ using namespace std;
 int main() {
     int a, b, c;
     cin >> a >> b >> c;
-    int satisfied = false;
+    int satisfied = true;
     for (a; a<=b; a++){
-        if (a % c != 0){
-            satisfied = true;
+        if (a % c == 0){
+            satisfied = false;
             break;
         }
     }
