@@ -7,9 +7,10 @@ int main() {
     cin >> item;
 
     for (int i=0; i<6; i++){
-        if (item == arr[i])
+        if (item == arr[i]){
             idx = i;
             break;
+        }
     }
     if (idx == -1)
         cout << "None";
