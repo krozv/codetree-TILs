@@ -4,7 +4,8 @@ using namespace std;
 
 int main() {
     int min_val, max_val;
-
+    min_val = 20;
+    max_val = 0;
     for (int i=0; i<3; i++){
         string str;
         cin >> str;
