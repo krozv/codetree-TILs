@@ -23,7 +23,7 @@ int main() {
             m.erase(k);
         }
         // find
-        else if (command == "find"){
+        else {
             int k;
             cin >> k;
             if (m.find(k) != m.end()){
