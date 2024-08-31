@@ -15,7 +15,7 @@ bool isExist(int y, int m, int d){
         if (isLeepYear(y) && m == 2 && d > 29){
             return false;
         }
-        if (m == 2 && d > 29)
+        if (m == 2 && d > 28)
             return false;
         if (d > 30)
             return false;
