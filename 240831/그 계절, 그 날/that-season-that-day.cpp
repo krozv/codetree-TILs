@@ -14,9 +14,11 @@ bool isLeepYear(int y) {
 bool isExist(int y, int m, int d){
     vector<int> values = {2, 4, 6, 9, 11};
     if (find(values.begin(), values.end(), m) != values.end()){
-        if (isLeepYear(y) && m == 2 && d > 29){
-            return false;
-        }
+        if (isLeepYear(y) && m == 2){
+            if (d > 29)
+                return false;
+            return true;
+        } 
         if (m == 2 && d > 28)
             return false;
         if (d > 30)
