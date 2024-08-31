@@ -6,6 +6,8 @@ bool isLeepYear(int n) {
         return false;
     if (n % 4 == 0)
         return true;
+    else 
+        return false;
 }
 int main() {
     int y;
