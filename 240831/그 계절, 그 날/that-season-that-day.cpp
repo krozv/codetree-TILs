@@ -4,10 +4,11 @@
 using namespace std;
 
 bool isLeepYear(int y) {
-    if (y % 100 == 0 && y % 400 != 0)
-        return false;
-    if (y % 4 == 0)
+    if (y % 4 == 0){
+        if (y % 100 == 0 && y % 400 != 0)
+            return false;
         return true;
+    }
     return false;
 }
 bool isExist(int y, int m, int d){
