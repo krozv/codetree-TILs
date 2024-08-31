@@ -6,10 +6,11 @@ using namespace std;
 bool isLeepYear(int y) {
     if (y % 100 == 0 && y % 400 != 0)
         return false;
-    return true;
+    if (y % 4 == 0)
+        return true;
+    return false;
 }
 bool isExist(int y, int m, int d){
-    // 31: 1 3 5 7 8 10 12
     vector<int> values = {2, 4, 6, 9, 11};
     if (find(values.begin(), values.end(), m) != values.end()){
         if (isLeepYear(y) && m == 2 && d > 29){
@@ -19,7 +20,7 @@ bool isExist(int y, int m, int d){
             return false;
         if (d > 30)
             return false;
-    }
+    } 
     return true;
 }
 int main() {
